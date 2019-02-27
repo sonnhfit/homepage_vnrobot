@@ -6,6 +6,22 @@
 /* =================================== */
 /*  Basic Style 
 /* =================================== */
+
+
+@font-face {
+	font-family: 'SF-UI-Display-Thin';
+	font-style: normal;
+	font-weight: normal;
+	src: local('SF UI Display Thin'), url('sf-ui-display-light-58646b33e0551.woff') format('woff');
+}
+
+@font-face {
+font-family: 'SF-UI-Display-Light';
+font-style: normal;
+font-weight: normal;
+src: local('SF UI Display Light'), url('sf-ui-display-thin-58646e9b26e8b.woff') format('woff');
+}
+
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #8a90ff;
@@ -51,8 +67,9 @@
 
 body {
   color: #777777;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-family: SF-UI-Display-Thin, sans-serif;
+	
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.625em;
   position: relative;
